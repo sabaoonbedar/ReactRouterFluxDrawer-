@@ -27,7 +27,7 @@
 * position ="left" or "right" 
 * drawerWidth ={200} 
 * contentComponent ={ <your component that you have made to display on the drawer> }
-* key="<any name you want>"
+* key="any name you want"
 * type: "replace",    not to move by IOS gestures.
 * open:{false}  first it would be close, by pressing button it will pop up.
 
