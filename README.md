@@ -23,14 +23,14 @@
 5. The scene on which you have wrapped the Drawer Component, go to that scene, make a button and add the following code example ( onPress={()=> Actions.drawerOpen()} or onPress={()=> Actions.drawerToggle()} ), for this first you need to import Actions from react-native-router-flux.
 
 ## Drawer Props
-* drawertype = "overly" or "static" or "displace"
-* position ="left" or "right" 
-* drawerWidth ={200} 
-* contentComponent ={ <your component that you have made to display on the drawer> }
-* key="any name you want"
-* type: "replace",    not to move by IOS gestures.
-* open:{false}  first it would be close, by pressing button it will pop up.
-
+``` drawertype = "overly" or "static" or "displace"
+position ="left" or "right" 
+drawerWidth ={200} 
+contentComponent ={ <your component that you have made to display on the drawer> }
+key="any name you want"
+type: "replace",    not to move by IOS gestures.
+open:{false}  first it would be close, by pressing button it will pop up.
+```
 
 
 
